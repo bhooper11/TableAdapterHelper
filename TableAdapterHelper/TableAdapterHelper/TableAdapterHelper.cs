@@ -4,11 +4,11 @@ using System.Data.SqlClient;
 using System.Reflection;
 
 /* Original code written by Ryan Whitaker on his blog http://weblogs.asp.net/ryanw/
- * I have simply compiled it into a DLL so that I can refrence this in other projects
+ * I have simply compiled it into a DLL so that I can reference this in other projects
  */
 namespace TableAdapterHelper
 {
-    public class TableAdapterHelper
+    public class TableHelper
     {
         public static SqlTransaction BeginTransaction(object tableAdapter)
         {
